@@ -209,6 +209,11 @@ var s1 = function(sketch) {
         sketch.image(sketch.highlight2, 0, 0, sketch.windowWidth, sketch.windowHeight);
         sketch.image(sketch.highlight3, 0, 0, sketch.windowWidth, sketch.windowHeight);
         sketch.image(sketch.highlight4, 0, 0, sketch.windowWidth, sketch.windowHeight);
+    } else {
+        sketch.image(sketch.highlight1, 0, 0, sketch.windowWidth, sketch.windowHeight);
+        sketch.image(sketch.highlight2, 0, 0, sketch.windowWidth, sketch.windowHeight);
+        sketch.image(sketch.highlight3, 0, 0, sketch.windowWidth, sketch.windowHeight);
+        sketch.image(sketch.highlight4, 0, 0, sketch.windowWidth, sketch.windowHeight);
     }
 
 
